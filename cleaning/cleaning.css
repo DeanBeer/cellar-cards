@@ -1,0 +1,44 @@
+@media print {
+
+  html {
+    height: 100%;
+  }
+
+
+  body {
+    height: 11in;
+    width: 8.5in;
+    font-size: 10px;
+  }
+
+
+  h1 {
+    font-size: 5em;
+    margin-top: 1em;
+  }
+
+
+  .date {
+    margin: 2em auto 6em auto;
+  }
+
+
+  .card {
+    border: solid 1px #000;
+    height: 33.33%;
+  }
+
+  .page {
+    page-break-after: always;
+  }
+
+}
+
+
+@media screen {
+  body.cleaned { background: yellow; }
+  body.cleared { background: blue; }
+  body.sanitized { background: green; }
+  body.packageable { background: green; }
+  body.wash { background: red; }
+}

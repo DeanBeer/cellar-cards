@@ -10,35 +10,10 @@ html {
 
 body {
   margin: 1em 0 0 0;
-    width: 8.5in;
 }
 
 ol, ul {
   list-style-type: none;
-}
-
-.brand { font-size: 4em; }
-
-
-.note { font-size: 50%;  }
-
-
-.cellar-timeline {
-  font-size: 1.25em;
-  text-align: right;
-}
-
-.cellar-timeline li {
-  margin: 0.5em 0 0 0;
-}
-
-.cellar-timeline li.note {
-  margin: 0.1em 0 0 0;
-}
-
-.gravities {
-  font-size: 0.75em;
-  margin-right: 0.5em;
 }
 
 
@@ -74,21 +49,5 @@ ol, ul {
   border-bottom: solid 1px #000;
   display: inline-block;
 }
-
-
-.microbiology .colhead {
-  text-decoration: underline;
-}
-
-.microbiology > div {
-  margin-bottom: 0.25em;
-}
-
-.turn-reminder {
-  font-size: 4em;
-  text-align: center;
-}
-.turn-reminder .days {  width: 2em;  }
-.turn-reminder .date {  width: 5em;  }
 
 .version { font-size: 0.5em; }

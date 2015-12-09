@@ -1,0 +1,36 @@
+.brand { font-size: 4em; }
+
+.note { font-size: 50%;  }
+
+.cellar-timeline {
+  font-size: 1.25em;
+  text-align: right;
+}
+
+.cellar-timeline li {
+  margin: 0.5em 0 0 0;
+}
+
+.cellar-timeline li.note {
+  margin: 0.1em 0 0 0;
+}
+
+.gravities {
+  font-size: 0.75em;
+  margin-right: 0.5em;
+}
+
+.microbiology .colhead {
+  text-decoration: underline;
+}
+
+.microbiology > div {
+  margin-bottom: 0.25em;
+}
+
+.turn-reminder {
+  font-size: 4em;
+  text-align: center;
+}
+.turn-reminder .days {  width: 2em;  }
+.turn-reminder .date {  width: 5em;  }
